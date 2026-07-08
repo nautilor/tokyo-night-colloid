@@ -1,0 +1,15 @@
+gtk-color-scheme = "fg_color:#C0CAF5\nbg_color:#1A1B26\nbase_color:#1F2335\ntext_color:#C0CAF5\nselected_bg_color:#304285\nselected_fg_color:#C0CAF5"
+
+style "default"
+{
+  bg[NORMAL] = "#1A1B26"
+  bg[PRELIGHT] = "#232433"
+  bg[SELECTED] = "#304285"
+  fg[NORMAL] = "#C0CAF5"
+  fg[INSENSITIVE] = "#565F89"
+  text[NORMAL] = "#C0CAF5"
+  base[NORMAL] = "#1F2335"
+  base[SELECTED] = "#304285"
+}
+
+class "*" style "default"

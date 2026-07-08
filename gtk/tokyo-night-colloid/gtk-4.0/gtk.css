@@ -1,0 +1,32 @@
+@import url('libadwaita.css');
+@import url('libadwaita-tweaks.css');
+
+
+/* Keep GTK4 sidebars and context menus on distinct Adwaita-like surfaces. */
+placessidebar {
+  background-color: var(--sidebar-bg-color);
+  color: var(--sidebar-fg-color);
+}
+
+placessidebar:backdrop {
+  background-color: var(--sidebar-backdrop-color);
+}
+
+popover.menu > arrow,
+popover.menu > contents,
+.solid-csd popover.menu,
+.solid-csd popover.menu > arrow,
+.solid-csd popover.menu > contents {
+  background-color: var(--popover-bg-color);
+  color: var(--popover-fg-color);
+}
+
+/* Nautilus: avoid a double-tinted location pill and remove the top sidebar strip. */
+.nautilus-pathbar {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.nautilus placessidebar .navigation-sidebar {
+  padding-top: 0;
+}
