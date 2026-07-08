@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Tokyo Dark Colloid
-Comment=A theme inspired by Colloid with the Tokyo Dark color palette.
+Name=Tokyo Night Colloid
+Comment=A theme inspired by Colloid with the Tokyo Night color palette.
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Tokyo Dark Colloid
-MetacityTheme=Tokyo Dark Colloid
+GtkTheme=Tokyo Night Colloid
+MetacityTheme=Tokyo Night Colloid
 IconTheme=Adwaita
 CursorTheme=Adwaita
 ButtonLayout=menu:minimize,maximize,close
