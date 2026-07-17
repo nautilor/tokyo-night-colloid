@@ -1,6 +1,6 @@
 @import url("libadwaita.css");
 @import url("libadwaita-tweaks.css");
-@import url("colors.css");
+@import "colors.css";
 
 /* Keep GTK4 sidebars and context menus on distinct Adwaita-like surfaces. */
 placessidebar {
